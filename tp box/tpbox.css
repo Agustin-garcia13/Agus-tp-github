@@ -1,0 +1,44 @@
+h1 {
+    font-style: italic;
+    margin-right: 31px;
+    font-size: 40px;
+    font-family: cursive;
+    line-height: 0.5;
+    color:rgb(117, 0, 128)
+}
+body{
+    background-color: yellowgreen;
+}
+
+.contenedor{
+    background-color: teal;width: 620px;
+    text-align: center;
+    padding: 10px;
+    margin: initial;
+    box-sizing: border-box;
+    border-radius: 2em;
+    border: 5px solid rgb(2, 73, 73)
+}
+.listamenu li{
+    display: inline;
+    margin: 40px;
+    font-style: oblique;
+    font-size: 20px;
+    color:rgb(117, 0, 128)
+}
+.menu{
+    position: relative;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: green
+}
+.submenu li{
+    display: block;
+}
+.menu:hover .submenu{
+    display:block;
+}

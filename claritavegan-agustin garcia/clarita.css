@@ -1,0 +1,80 @@
+.conte {
+  padding: 0px; }
+  .conte__tit {
+    background-image: linear-gradient(to top, green, #4c4cf5);
+    background-color: teal;
+    width: 620px;
+    text-align: center;
+    padding: 10px;
+    margin: initial;
+    box-sizing: border-box;
+    border-radius: 2em;
+    border: 5px solid #024949; }
+    .conte__tit__2 {
+      transition: font-size 2s;
+      font-style: italic;
+      margin-right: 31px;
+      font-size: 40px;
+      font-family: cursive;
+      line-height: 0.5;
+      color: #750080; }
+
+.tabla {
+  padding-left: 0px;
+  background-color: springgreen;
+  width: 300px; }
+  .tabla__a {
+    font-family: initial;
+    color: khaki; }
+
+.contenedora {
+  width: 600px;
+  text-decoration: underline;
+  color: green;
+  margin-left: 1px; }
+  .contenedora__letra {
+    width: 600px;
+    font-family: cursive; }
+
+.contenedor2{
+  text-decoration: underline;color: green;
+  margin-left: 150px;
+  animation: jello;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+
+.thead{
+  font-family: cursive;
+  border-bottom: solid 2px;
+  background-color: green
+}
+.cajaContenedora{
+  border: solid 1px black;
+  font-family: cursive;color:darkslateblue;
+  width: 600px;
+  height: 600px;
+}
+.grid{
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 10px;
+}
+h1:hover{
+  font-size: 70px;
+}
+.corte{
+  width: 600px;
+}
+.bloque{
+  width: 600px;
+  }
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:green
+}
+body{
+  background-color: yellowgreen;
+}
