@@ -31,7 +31,10 @@
   color: green;
   margin-left: 1px; }
   .contenedora__letra {
-    font-family: cursive; }
+    font-family: 'Yrsa', serif;color: rgb(37, 104, 37);
+    font-size: 20px;
+  }
+  
 
 .contenedor2{
   text-decoration: underline;color: green;
