@@ -7,7 +7,6 @@
     padding: 10px;
     margin: initial;
     box-sizing: border-box;
-    border-radius: 2em;
     border: 5px solid #024949; }
     .conte__tit__2 {
       transition: font-size 2s;
@@ -19,11 +18,11 @@
       color: #750080; }
 
 .tabla {
+  font-family: 'Yrsa', serif;color: rgb(37, 104, 37);
   padding-left: 0px;
   background-color: springgreen;
   width: 300px; }
   .tabla__a {
-    font-family: initial;
     color: khaki; }
 
 .contenedora {
@@ -83,3 +82,9 @@ h2{
 body{
   background-color: yellowgreen;
 }
+.menu{
+  color: rgb(170, 26, 26);
+  padding: 10px;
+  font-size: 20px;
+}
+
