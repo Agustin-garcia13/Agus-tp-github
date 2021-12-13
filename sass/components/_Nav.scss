@@ -1,0 +1,37 @@
+.conte {
+        padding: 0px; }
+        .conte__tit {
+            background-image: linear-gradient(to top, green, #4c4cf5);
+            background-color: teal;
+            text-align: center;
+            padding: 10px;
+            margin: initial;
+            box-sizing: border-box;
+            border: 5px solid #024949; }
+            .conte__tit__2 {
+                transition: font-size 2s;
+                font-style: italic;
+                margin-right: 31px;
+                font-size: 40px;
+                font-family: cursive;
+                line-height: 0.5;
+                color: #750080; }
+    
+    h1:hover{
+        font-size: 50px;
+        }
+    
+    .bloque{
+        width: 80%;
+        padding-left: 20%;
+        }
+    
+    body{
+        background-color: yellowgreen;
+        }
+    
+    .menu{
+        color: rgb(170, 26, 26);
+        padding: 10px;
+        font-size: 20px;
+        }
