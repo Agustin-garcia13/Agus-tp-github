@@ -8,6 +8,9 @@
         margin: initial;
         box-sizing: border-box;
         border: 5px solid #024949; }
+        .conte__tit__3 {
+            width: 962px;
+        }
         .conte__tit__2 {
             transition: font-size 2s;
             font-style: italic;
@@ -39,8 +42,9 @@
         background-color: yellowgreen;
         }
     
-    @media (max-width: 600px) {
-        .conte__tit__3{
-            display: none;
-            width: 20px;
-        }
+
+@media only screen and (max-width: 600px) {
+    .conte__tit__3 {
+        width: 20px;
+    }
+
