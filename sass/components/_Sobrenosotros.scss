@@ -38,3 +38,9 @@
     body{
         background-color: yellowgreen;
         }
+    
+    @media (max-width: 600px) {
+        .logoqueries{
+            display: none;
+            width: 20px;
+        }
